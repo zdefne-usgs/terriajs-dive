@@ -10,7 +10,6 @@
           "url": "http://www.esrl.noaa.gov/psd/thredds/wms/Datasets/ghcncams/air.mon.mean.nc",
           "isEnabled": true,
           "layers": "air"
-          }
         },
         {
           "name": "Geographic Centers of Migratory Bird Species ",
