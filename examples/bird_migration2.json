@@ -12,6 +12,7 @@
           "layers": "air",
             "parameters": {
             "NUMCOLORBANDS": "40",
+            "COLORSCALERANGE": "230,310",
             "VERSION": "1.1.1",
             "styles": "boxfill/rainbow"
           },
