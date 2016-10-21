@@ -20,7 +20,7 @@
         {
           "name": "Geographic Centers of Migratory Bird Species ",
           "type": "czml",
-          "url": "https://raw.githubusercontent.com/rsignell-usgs/ehzrap/master/testing/bird_migration.czml",
+          "url": "https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/bird_migration.czml",
           "isEnabled": true,
           "description": "Geographic centers of occurrence estimated daily for 118 migratory bird species using eBird occurrence information for the combined period 2002 to 2014. Additional details on the data and methods can be found here:\nLa Sorte, F.A., Fink, D., Hochachka, W.M. & Kelling, S. (2016) Convergence of broad-scale migration strategies in terrestrial birds. Proceedings of the Royal Society of London B: Biological Sciences, 283, 20152588.",
           "dataCustodian": "Frank A. La Sorte (fal42@cornell.edu)"
