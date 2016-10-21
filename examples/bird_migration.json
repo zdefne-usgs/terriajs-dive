@@ -10,8 +10,6 @@
           "url": "http://www.esrl.noaa.gov/psd/thredds/wms/Datasets/ghcncams/air.mon.mean.nc",
           "isEnabled": true,
           "layers": "air",
-          "description": "Monthy average air temperature for 2005 at 2m above ground, from the NOAA/ESRL CAMS Model",
-          "dataCustodian": "Cathy Smith (cathy.smith@noaa.gov)",
           "parameters": {
             "VERSION": "1.1.1"
           },
