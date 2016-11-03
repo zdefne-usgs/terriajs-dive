@@ -10,6 +10,8 @@
           "url": "http://www.esrl.noaa.gov/psd/thredds/wms/Datasets/ghcncams/air.mon.mean.nc",
           "isEnabled": true,
           "layers": "air",
+          "colorScaleMinimum": 230,
+          "colorScaleMaximum": 310,
           "parameters": {
             "VERSION": "1.1.1"
           },
