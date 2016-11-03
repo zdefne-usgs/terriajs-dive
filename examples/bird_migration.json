@@ -12,6 +12,7 @@
           "layers": "air",
           "colorScaleMinimum": 230,
           "colorScaleMaximum": 310,
+          "styles": "boxfill/rainbow",
           "parameters": {
             "VERSION": "1.1.1"
           },
