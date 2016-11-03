@@ -15,7 +15,7 @@
           "styles": "boxfill/rainbow",
           "parameters": {
             "VERSION": "1.1.1"
-          },
+          }
         },
         {
           "name": "Geographic Centers of Migratory Bird Species ",
