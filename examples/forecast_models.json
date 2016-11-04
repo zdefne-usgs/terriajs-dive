@@ -9,10 +9,10 @@
           "type": "wms",
           "url": "http://geoport.whoi.edu/ncWMS2/wms",
           "isEnabled": true,
-          "layers": "FVCOM-NECOFS-GOM3%2Ftemp",
+          "layers": "FVCOM-NECOFS-GOM3/temp",
           "colorScaleMinimum": 11.0,
           "colorScaleMaximum": 17.0,
-          "styles": "default-scalar%2Fx-Sst",
+          "styles": "default-scalar/x-Sst",
           "parameters": {
             "VERSION": "1.1.1"
           }
@@ -22,10 +22,10 @@
           "type": "wms",
           "url": "http://geoport.whoi.edu/ncWMS2/wms",
           "isEnabled": true,
-          "layers": "FVCOM-NECOFS-MassBay%2Ftemp",
+          "layers": "FVCOM-NECOFS-MassBay/temp",
           "colorScaleMinimum": 11.0,
           "colorScaleMaximum": 17.0,
-          "styles": "default-scalar%2Fx-Sst",
+          "styles": "default-scalar/x-Sst",
           "parameters": {
             "VERSION": "1.1.1"
           }
