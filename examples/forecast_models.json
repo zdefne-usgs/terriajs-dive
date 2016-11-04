@@ -1,0 +1,52 @@
+{
+  "catalog": [
+    {
+      "name": "Forecast Models",
+      "type": "group",
+      "items": [
+        {
+          "name": "NECOFS GOM3 Model",
+          "type": "wms",
+          "url": "http://geoport.whoi.edu/ncWMS2/wms",
+          "isEnabled": true,
+          "layers": "FVCOM-NECOFS-GOM3%2Ftemp",
+          "colorScaleMinimum": 11.0,
+          "colorScaleMaximum": 17.0,
+          "styles": "default-scalar%2Fx-Sst",
+          "parameters": {
+            "VERSION": "1.1.1"
+          }
+        },
+        {
+          "name": "NECOFS MassBay Model",
+          "type": "wms",
+          "url": "http://geoport.whoi.edu/ncWMS2/wms",
+          "isEnabled": true,
+          "layers": "FVCOM-NECOFS-MassBay%2Ftemp",
+          "colorScaleMinimum": 11.0,
+          "colorScaleMaximum": 17.0,
+          "styles": "default-scalar%2Fx-Sst",
+          "parameters": {
+            "VERSION": "1.1.1"
+          }
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "homeCamera": {
+    "west": -71.5,
+    "east": -65,
+    "north": 45.0,
+    "south": 39.0
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}
