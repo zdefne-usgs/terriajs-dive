@@ -21,7 +21,7 @@
           "name": "NECOFS MassBay Model",
           "type": "wms",
           "url": "http://geoport.whoi.edu/ncWMS2/wms",
-          "isEnabled": false,
+          "isEnabled": true,
           "layers": "FVCOM-NECOFS-MassBay/temp",
           "colorScaleMinimum": 11.0,
           "colorScaleMaximum": 17.0,
