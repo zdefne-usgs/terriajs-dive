@@ -1,0 +1,40 @@
+{
+  "catalog": [
+    {
+      "name": "Wetland Synthesis",
+      "type": "group",
+      "items": [
+        {
+          "name": "Mean Tidal Range",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/arcgis/services/Catalog/58209e55e4b080404e6fa97d/MapServer/WMSServer",
+          "isEnabled": true,
+          "layers": 0
+        },
+        {
+          "name": "Ecologically Sensitive Areas",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/arcgis/services/Catalog/57ab7ea1e4b05e859be1ae87/MapServer/WMSServer",
+          "isEnabled": true,
+          "layers": 0
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "homeCamera": {
+    "west": -74.4,
+    "east": -74.0,
+    "north": 40.0,
+    "south": 39.5
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}
