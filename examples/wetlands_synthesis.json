@@ -3,12 +3,14 @@
     {
       "name": "Wetland Synthesis",
       "type": "group",
+      "isOpen": true,
       "items": [
         {
           "name": "Mean Tidal Range",
           "type": "wms",
           "url": "https://www.sciencebase.gov/arcgis/services/Catalog/58209e55e4b080404e6fa97d/MapServer/WMSServer",
           "isEnabled": true,
+          "isShown": false,
           "layers": "0"
         },
         {
@@ -16,17 +18,29 @@
           "type": "wms",
           "url": "https://www.sciencebase.gov/arcgis/services/Catalog/57ab7ea1e4b05e859be1ae87/MapServer/WMSServer",
           "isEnabled": true,
+          "isShown": false,
           "layers": "0"
+        },
+          {
+          "name": "COAWST Run076",
+          "type": "wms",
+          "url": "http://geoport-dev.whoi.edu/thredds/wms/sand/usgs/users/zdefne/run076/his/roms_his.ncml",
+          "isEnabled": true,
+          "isShown": true,
+          "layers": "salt",
+          "colorScaleMinimum": 28.0,
+          "colorScaleMaximum": 33.0,
+          "styles": "areafill/rainbow",
+          "parameters": {
+            "VERSION": "1.1.1"
+          }
         }
-      ],
-      "isOpen": true
+      ]
     }
   ],
   "corsDomains": [
     "whoi.edu",
-    "corsproxy.com",
-    "programs.communications.gov.au",
-    "www.asris.csiro.au"
+    "corsproxy.com"
   ],
   "homeCamera": {
     "west": -74.4,
