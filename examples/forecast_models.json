@@ -10,8 +10,8 @@
           "url": "http://geoport.whoi.edu/ncWMS2/wms",
           "isEnabled": true,
           "layers": "FVCOM-NECOFS-GOM3/temp",
-          "colorScaleMinimum": 11.0,
-          "colorScaleMaximum": 17.0,
+          "colorScaleMinimum": 2.0,
+          "colorScaleMaximum": 12.0,
           "styles": "default-scalar/x-Sst",
           "parameters": {
             "VERSION": "1.1.1"
@@ -23,8 +23,8 @@
           "url": "http://geoport.whoi.edu/ncWMS2/wms",
           "isEnabled": true,
           "layers": "FVCOM-NECOFS-MassBay/temp",
-          "colorScaleMinimum": 11.0,
-          "colorScaleMaximum": 17.0,
+          "colorScaleMinimum": 2.0,
+          "colorScaleMaximum": 12.0,
           "styles": "default-scalar/x-Sst",
           "parameters": {
             "VERSION": "1.1.1"
