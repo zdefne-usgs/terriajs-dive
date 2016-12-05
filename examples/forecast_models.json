@@ -11,7 +11,7 @@
           "isEnabled": true,
           "layers": "FVCOM-NECOFS-GOM3/temp",
           "colorScaleMinimum": 2.0,
-          "colorScaleMaximum": 12.0,
+          "colorScaleMaximum": 15.0,
           "styles": "default-scalar/x-Sst",
           "parameters": {
             "VERSION": "1.1.1"
@@ -24,7 +24,7 @@
           "isEnabled": true,
           "layers": "FVCOM-NECOFS-MassBay/temp",
           "colorScaleMinimum": 2.0,
-          "colorScaleMaximum": 12.0,
+          "colorScaleMaximum": 15.0,
           "styles": "default-scalar/x-Sst",
           "parameters": {
             "VERSION": "1.1.1"
