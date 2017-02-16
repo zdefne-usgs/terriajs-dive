@@ -10,8 +10,8 @@
           "url": "http://gamone.whoi.edu/wms/datasets/asgs_sandy_29",
           "isEnabled": true,
           "layers": "zeta",
-          "colorScaleMinimum": 2.0,
-          "colorScaleMaximum": 15.0,
+          "colorScaleMinimum": -2.0,
+          "colorScaleMaximum": 2.0,
           "styles": "filledcontours_cubehelix",
           "parameters": {
             "VERSION": "1.1.1"
@@ -23,8 +23,8 @@
           "url": "http://gamone.whoi.edu/wms/datasets/asgs_sandy_25",
           "isEnabled": true,
           "layers": "zeta",
-          "colorScaleMinimum": 2.0,
-          "colorScaleMaximum": 15.0,
+          "colorScaleMinimum": -2.0,
+          "colorScaleMaximum": 2.0,
           "styles": "filledcontours_cubehelix",
           "parameters": {
             "VERSION": "1.1.1"
