@@ -4,7 +4,7 @@
       "name": "Forecast Models",
       "type": "group",
       "items": [
-              {
+        {
           "name": "ASGS Sandy29",
           "type": "wms",
           "url": "http://gamone.whoi.edu/wms/datasets/asgs_sandy_29",
@@ -15,33 +15,20 @@
           "styles": "filledcontours_cubehelix",
           "parameters": {
             "VERSION": "1.1.1"
-          }
+            }
         },
         {
-          "name": "NECOFS GOM3 Model",
+          "name": "ASGS Sandy25",
           "type": "wms",
-          "url": "http://geoport.whoi.edu/ncWMS2/wms",
+          "url": "http://gamone.whoi.edu/wms/datasets/asgs_sandy_25",
           "isEnabled": true,
-          "layers": "FVCOM-NECOFS-GOM3/temp",
+          "layers": "zeta",
           "colorScaleMinimum": 2.0,
           "colorScaleMaximum": 15.0,
-          "styles": "default-scalar/x-Sst",
+          "styles": "filledcontours_cubehelix",
           "parameters": {
             "VERSION": "1.1.1"
-          }
-        },
-        {
-          "name": "NECOFS MassBay Model",
-          "type": "wms",
-          "url": "http://geoport.whoi.edu/ncWMS2/wms",
-          "isEnabled": true,
-          "layers": "FVCOM-NECOFS-MassBay/temp",
-          "colorScaleMinimum": 2.0,
-          "colorScaleMaximum": 15.0,
-          "styles": "default-scalar/x-Sst",
-          "parameters": {
-            "VERSION": "1.1.1"
-          }
+             }
         }
       ],
       "isOpen": true
