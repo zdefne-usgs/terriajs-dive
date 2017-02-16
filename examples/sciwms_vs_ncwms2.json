@@ -1,0 +1,52 @@
+{
+  "catalog": [
+    {
+      "name": "Forecast Models",
+      "type": "group",
+      "items": [
+        {
+          "name": "ASGS Sandy29 sci-wms",
+          "type": "wms",
+          "url": "http://gamone.whoi.edu/wms/datasets/asgs_sandy_29",
+          "isEnabled": true,
+          "layers": "zeta",
+          "colorScaleMinimum": -2.0,
+          "colorScaleMaximum": 2.0,
+          "styles": "filledcontours_cubehelix",
+          "parameters": {
+            "VERSION": "1.1.1"
+            }
+        },
+        {
+          "name": "ASGS Sandy29 ncWMS2",
+          "type": "wms",
+          "url": "http://gamone.whoi.edu/ncWMS/wms",
+          "isEnabled": false,
+          "layers": "ASGS-Sandy-29%2Fzeta",
+          "colorScaleMinimum": -2.0,
+          "colorScaleMaximum": 2.0,
+          "styles": "default-scalar%2Fdefault",
+          "parameters": {
+            "VERSION": "1.3.0"
+             }
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "homeCamera": {
+    "west": -71.5,
+    "east": -65,
+    "north": 45.0,
+    "south": 39.0
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}
