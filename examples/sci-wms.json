@@ -21,7 +21,7 @@
           "name": "ASGS Sandy25",
           "type": "wms",
           "url": "http://gamone.whoi.edu/wms/datasets/asgs_sandy_25",
-          "isEnabled": true,
+          "isEnabled": false,
           "layers": "zeta",
           "colorScaleMinimum": -2.0,
           "colorScaleMaximum": 2.0,
