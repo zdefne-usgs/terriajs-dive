@@ -21,7 +21,7 @@
           "name": "ASGS Sandy29 ncWMS2",
           "type": "wms",
           "url": "http://gamone.whoi.edu/ncWMS/wms",
-          "isEnabled": false,
+          "isEnabled": true,
           "layers": "ASGS-Sandy-29%2Fzeta",
           "colorScaleMinimum": -2.0,
           "colorScaleMaximum": 2.0,
