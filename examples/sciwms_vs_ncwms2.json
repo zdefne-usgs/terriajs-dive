@@ -27,7 +27,7 @@
           "colorScaleMaximum": 2.0,
           "styles": "default-scalar%2Fdefault",
           "parameters": {
-            "VERSION": "1.3.0"
+            "VERSION": "1.1.1"
              }
         }
       ],
