@@ -25,7 +25,7 @@
           "layers": "ASGS-Sandy-29%2Fzeta",
           "colorScaleMinimum": -2.0,
           "colorScaleMaximum": 2.0,
-          "styles": "default-scalar%2Fdefault",
+          "styles": "default-scalar/default",
           "parameters": {
             "VERSION": "1.1.1"
              }
