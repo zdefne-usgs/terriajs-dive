@@ -10,8 +10,8 @@
           "url": "http://gamone.whoi.edu/wms/datasets/asgs_sandy_29",
           "isEnabled": true,
           "layers": "zeta",
-          "colorScaleMinimum": -2.0,
-          "colorScaleMaximum": 2.0,
+          "colorScaleMinimum": -1.0,
+          "colorScaleMaximum": 5.0,
           "initialTimeSource": "2012-10-30T02:00:00Z",
           "styles": "filledcontours_cubehelix",
           "parameters": {
@@ -24,8 +24,8 @@
           "url": "http://gamone.whoi.edu/ncWMS/wms",
           "isEnabled": true,
           "layers": "ASGS-Sandy-29/zeta",
-          "colorScaleMinimum": -2.0,
-          "colorScaleMaximum": 2.0,
+          "colorScaleMinimum": -1.0,
+          "colorScaleMaximum": 5.0,
           "initialTimeSource": "2012-10-30T02:00:00Z",
           "styles": "default-scalar/default",
           "parameters": {
