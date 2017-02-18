@@ -12,6 +12,7 @@
           "layers": "zeta",
           "colorScaleMinimum": -2.0,
           "colorScaleMaximum": 2.0,
+          "initialTimeSource": "2012-10-30T02:00:00Z",
           "styles": "filledcontours_cubehelix",
           "parameters": {
             "VERSION": "1.1.1"
@@ -25,6 +26,7 @@
           "layers": "ASGS-Sandy-29/zeta",
           "colorScaleMinimum": -2.0,
           "colorScaleMaximum": 2.0,
+          "initialTimeSource": "2012-10-30T02:00:00Z",
           "styles": "default-scalar/default",
           "parameters": {
             "VERSION": "1.1.1"
@@ -47,7 +49,6 @@
     "south": 39.0
   },
   "baseMapName": "Bing Maps Roads",
-  "initialTimeSource": "2012-10-30T02:00:00Z",
   "initialViewerMode": "2d",
   "services": []
 }
