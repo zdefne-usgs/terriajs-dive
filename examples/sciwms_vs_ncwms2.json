@@ -47,6 +47,7 @@
     "south": 39.0
   },
   "baseMapName": "Bing Maps Roads",
+  "initialTimeSource": "2012-10-30T02:00:00Z",
   "initialViewerMode": "2d",
   "services": []
 }
