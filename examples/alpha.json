@@ -1,0 +1,56 @@
+{
+  "catalog": [
+    {
+      "name": "NSF Alpha",
+      "type": "group",
+      "items": [
+        {
+          "name": "WHOI-HFR-2014_original",
+          "type": "wms",
+          "url": "http://transport.me.berkeley.edu/thredds/wms/root/WHOI-HFR/WHOI_HFR_2014_original.nc",
+          "isEnabled": true,
+          "layers": "wind",
+          "colorScaleMinimum": 0.0,
+          "colorScaleMaximum": 1.0,
+          "initialTimeSource": "2014-09-30T00:00:00Z",
+          "styles": "vector/rainbow",
+          "parameters": {
+            "VERSION": "1.1.1",
+            "NUMCOLORBANDS": "40"
+            }
+        },
+        {
+          "name": "WHOI-HFR-2014_restored",
+          "type": "wms",
+          "url": "http://transport.me.berkeley.edu/thredds/wms/root/WHOI-HFR/WHOI_HFR_2014_restored.nc",
+          "isEnabled": false,
+          "layers": "wind",
+          "colorScaleMinimum": 0.0,
+          "colorScaleMaximum": 1.0,
+          "initialTimeSource": "2014-09-30T00:00:00Z",
+          "styles": "vector/rainbow",
+          "parameters": {
+            "VERSION": "1.1.1",
+            "NUMCOLORBANDS": "40"
+            }
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "homeCamera": {
+    "west": -71.2,
+    "east": -70.2,
+    "north": 41.5,
+    "south": 40.5
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}
