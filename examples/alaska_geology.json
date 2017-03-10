@@ -8,14 +8,14 @@
       "items": [
         {
           "name": "Detailed Geology",
-          "type": "esri",
+          "type": "esri-mapServer",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer/export",
           "isEnabled": true,
           "layers": "show:22"
         },
         {
           "name": "Detailed Geology",
-          "type": "esri",
+          "type": "esri-mapServer",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer/export",
           "isEnabled": true
         }
