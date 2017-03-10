@@ -9,13 +9,13 @@
         {
           "name": "Detailed Geology",
           "type": "esri-mapServer",
-          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer/export",
-          "isEnabled": true
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer/17",
+          "isEnabled": false
         },
         {
-          "name": "Detailed Geology",
+          "name": "Generalized Geology",
           "type": "esri-mapServer",
-          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer/export",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer/8",
           "isEnabled": true
         }
       ],
