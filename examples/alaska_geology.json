@@ -18,7 +18,7 @@
           "type": "esri-mapServer",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer",
           "layers": "17",
-          "isEnabled": false
+          "isEnabled": true
         }
       ],
       "isOpen": true
