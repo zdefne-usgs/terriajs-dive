@@ -10,14 +10,14 @@
           "name": "Generalized Geology",
           "type": "esri-mapServer",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer",
-          "layers": "8",
+          "layers": "13",
           "isEnabled": true
         },
         {
           "name": "Detailed Geology",
           "type": "esri-mapServer",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer",
-          "layers": "17",
+          "layers": "22",
           "isEnabled": true
         }
       ],
