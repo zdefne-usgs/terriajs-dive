@@ -7,14 +7,14 @@
       "type": "group",
       "items": [
         {
-          "name": "Generalized Geology",
+          "name": "Generalized Geology polygons",
           "type": "esri-mapServer",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer",
           "layers": "13",
           "isEnabled": true
         },
         {
-          "name": "Detailed Geology",
+          "name": "Detailed Geology polygons",
           "type": "esri-mapServer",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer",
           "layers": "22",
