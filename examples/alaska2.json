@@ -1,0 +1,27 @@
+
+
+{
+  "catalog": [
+    {
+      "name": "Alaska Geological Map",
+      "type": "group",
+      "items": [
+        {
+          "name": "Alaska Geology",
+          "type": "esri-mapServer-group",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer",
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}
