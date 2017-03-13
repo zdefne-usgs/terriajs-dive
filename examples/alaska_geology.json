@@ -16,11 +16,15 @@
     }
   ],
   "corsDomains": [
-    "whoi.edu",
-    "corsproxy.com",
-    "programs.communications.gov.au",
-    "www.asris.csiro.au"
+    "sciencebase.gov",
+    "corsproxy.com"
   ],
+    "homeCamera": {
+    "west": -175,
+    "east": -135,
+    "north": 72,
+    "south": 55
+},
   "baseMapName": "Bing Maps Roads",
   "initialViewerMode": "2d",
   "services": []
