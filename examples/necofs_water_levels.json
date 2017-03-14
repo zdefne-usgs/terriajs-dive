@@ -23,8 +23,8 @@
           "url": "http://gamone.whoi.edu/ncWMS/wms",
           "isEnabled": true,
           "layers": "NECOFS-MassBay/zeta",
-          "colorScaleMinimum": 2.0,
-          "colorScaleMaximum": -2.0,
+          "colorScaleMinimum": -2.0,
+          "colorScaleMaximum": 2.0,
           "styles": "default-scalar/x-rainbow",
           "parameters": {
             "VERSION": "1.1.1"
