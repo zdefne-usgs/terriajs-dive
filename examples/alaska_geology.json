@@ -9,7 +9,7 @@
         {
           "name": "Alaska Geology",
           "type": "esri-mapServer-group",
-          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer"
         }
       ],
       "isOpen": true
