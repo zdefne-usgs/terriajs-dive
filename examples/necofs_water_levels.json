@@ -12,7 +12,6 @@
           "layers": "NECOFS-GOM3/zeta",
           "colorScaleMinimum": -2.0,
           "colorScaleMaximum": 2.0,
-          "styles": "default-scalar/x-rainbow",
           "parameters": {
             "VERSION": "1.1.1"
           }
@@ -25,7 +24,6 @@
           "layers": "NECOFS-MassBay/zeta",
           "colorScaleMinimum": -2.0,
           "colorScaleMaximum": 2.0,
-          "styles": "default-scalar/x-rainbow",
           "parameters": {
             "VERSION": "1.1.1"
           }
