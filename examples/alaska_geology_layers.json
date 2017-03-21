@@ -30,10 +30,10 @@
     "corsproxy.com"
   ],
     "initialCamera": {
-    "west": -163.5,
-    "east": -158.5,
-    "north": 66.5,
-    "south": 65.5
+    "west": -154.47081370130456,
+    "east": -140.1702524470959,
+    "north": 63.654356255141536,
+    "south": 57.252224232856754
   },
     "homeCamera": {
     "west": -175,
