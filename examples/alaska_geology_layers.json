@@ -19,6 +19,7 @@
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/58c22bbbe4b014cc3a3da30b/MapServer",
           "layers": "22",
           "isEnabled": true
+          "isLegendVisible":false
         }
       ],
       "isOpen": true
@@ -28,6 +29,12 @@
     "sciencebase.gov",
     "corsproxy.com"
   ],
+    "initialCamera": {
+    "west": -163.5,
+    "east": -158.5,
+    "north": 66.5,
+    "south": 65.5
+  },
     "homeCamera": {
     "west": -175,
     "east": -135,
