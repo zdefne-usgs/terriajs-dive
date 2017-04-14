@@ -6,13 +6,13 @@ We use [Github issues](https://github.com/USGS-CMG/terriajs-dive/issues) instead
 Check out the TerriaJS Tips and Links on the [project wiki](https://github.com/USGS-CMG/terriajs-dive/wiki)
 
 ## Examples
-### Alaska Geology 
+#### Alaska Geology 
 http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/alaska_geology_layers.json
 
-### Bird Migration
+#### Bird Migration
 http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/bird_migration.json
 
-## CSW Search
+#### CSW Search
 http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/csw_roms.json
 
 http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/csw_necofs.json
