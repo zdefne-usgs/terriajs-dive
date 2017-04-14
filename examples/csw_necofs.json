@@ -12,9 +12,9 @@
     ]
 }],
  "homeCamera": {
-    "west": -160,
-    "east": -30,
-    "north": 60,
-    "south": -20
+    "west": -75,
+    "east": -58,
+    "north": 47,
+    "south": 34
   }
 }
