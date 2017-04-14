@@ -5,17 +5,16 @@ We use [Github issues](https://github.com/USGS-CMG/terriajs-dive/issues) instead
 
 Check out the TerriaJS Tips and Links on the [project wiki](https://github.com/USGS-CMG/terriajs-dive/wiki)
 
-## Examples
 
-#### Bird Migration
+### Bird Migration Example
 Using CZML for bird positions and time-dependent WMS from THREDDS for monthly temperatures:
 http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/bird_migration.json
 
-#### Alaska Geology
+### Alaska Geology Example
 ESRI REST services from ScienceBase:
 http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/alaska_geology_layers.json
 
-#### CSW Search
+#### CSW Search Examples
 CSW Search on the IOOS Catalog for ROMS Ocean Forecast Models and WMS Services:
 http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/csw_roms.json
 
