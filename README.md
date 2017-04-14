@@ -4,3 +4,15 @@ A place to raise and discuss issues surrounding the 2016 CDI Proposal ["Evaluati
 We use [Github issues](https://github.com/USGS-CMG/terriajs-dive/issues) instead of e-mail discussion, as they are more effective for technical conversations, and they capture project-related correspondence in one place.   
 
 Check out the TerriaJS Tips and Links on the [project wiki](https://github.com/USGS-CMG/terriajs-dive/wiki)
+
+## Examples
+### Alaska Geology 
+http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/alaska_geology_layers.json
+
+### Bird Migration
+http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/bird_migration.json
+
+## CSW Search
+http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/csw_roms.json
+
+http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/csw_necofs.json
