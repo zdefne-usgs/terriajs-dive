@@ -21,6 +21,6 @@ http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.
 CSW Search on the IOOS Catalog for NECOFS/FVCOM Unstructured Grid Ocean Forecasts and WMS Services:
 http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/csw_necofs.json
 
-### GPX track on Terrian
-GPX track uploaded to github and then added via "Add Data=>Add Web Data".  On mobile devices, try clicking on "Map=>3D Terrain" and using two fingure gestures to manipulate the 3D view:
+### GPX Track on 3D Terrian
+GPX track from a hike uploaded to github and then added via "Add Data=>Add Web Data".  On mobile devices, try clicking on "Map=>3D Terrain" and using two fingure gestures to manipulate the 3D view:
 https://gamone.whoi.edu/terriajs/#share=g-0ce1a319a714784bd0aa47671021d676
