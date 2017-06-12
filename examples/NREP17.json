@@ -39,6 +39,8 @@
         }
     ],
     "isOpen": true,
+    "baseMapName": "Bing Maps Aerial with Labels",
+    "viewerMode": "2d",
     "homeCamera": {
         "west": -39.725365403840414,
         "south": 38.07195921009261,
