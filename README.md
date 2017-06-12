@@ -26,3 +26,5 @@ GPX track from a hike uploaded to github and then added via "Add Data=>Add Web D
 https://gamone.whoi.edu/terriajs/#share=g-0ce1a319a714784bd0aa47671021d676  
 Note: On mobile devices, try clicking on "Map=>3D Terrain" and using two-finger gestures to manipulate the 3D view!
 
+This URL was created by hitting the "Share" button, which saved the configuration (including 3D view) as JSON in a Gist. The gist can be viewed using https://gist.github.com/rsignell-usgs/0ce1a319a714784bd0aa47671021d676
+
