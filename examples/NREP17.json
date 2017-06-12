@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "name": "UK Met/Wind Wave Significant Wave",
+                    "name": "UK Met/Wind Wave Significant Height",
                     "isEnabled": true,
                     "maxRefreshIntervals":"40000",
                     "url": "http://data.ncof.co.uk/thredds/wms/METOFFICE-NWS-AF-WAV-HOURLY",
@@ -36,7 +36,7 @@
                     }
                 },
                 {
-                    "name": "CMRE estimate of Significant Wave Height from Wind Waves",
+                    "name": "CMRE/Estimated Wind Wave Significant Height",
                     "isEnabled": true,
                     "maxRefreshIntervals":"40000",
                     "url": "http://wx18275/thredds/wms/data/NREP17/ROMS-NREP17/proc/ALL/agg_ALL.ncml",
