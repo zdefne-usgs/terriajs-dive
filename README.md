@@ -23,5 +23,8 @@ http://gamone.whoi.edu/terriajs/#clean&proxy/_60s/https://raw.githubusercontent.
 
 ### GPX Track on 3D Terrian
 GPX track from a hike uploaded to github and then added via "Add Data=>Add Web Data":
+
 https://gamone.whoi.edu/terriajs/#share=g-0ce1a319a714784bd0aa47671021d676
-(On mobile devices, try clicking on "Map=>3D Terrain" and using two-finger gestures to manipulate the 3D view!)
+
+Note: On mobile devices, try clicking on "Map=>3D Terrain" and using two-finger gestures to manipulate the 3D view!
+
