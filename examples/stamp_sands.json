@@ -12,7 +12,7 @@
           "url": "http://spatial.mtri.org/mapserver",
           "isEnabled": true,
           "layers": "2009_substrate",
-          "map": "%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map",
+          "map": "/var/www/mapfiles/stampsands.map",
           "parameters": {
             "VERSION": "1.1.1"
           }
@@ -23,7 +23,7 @@
           "url": "http://spatial.mtri.org/mapserver",
           "isEnabled": true,
           "layers": "2016_substrate",
-          "map": "%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map",
+          "map": "/var/www/mapfiles/stampsands.map",
           "parameters": {
             "VERSION": "1.1.1"
           }
@@ -39,9 +39,9 @@
     "www.asris.csiro.au"
   ],
   "homeCamera": {
-    "west": -89.0,
+    "west": -88.5,
     "east": -88.0,
-    "north": 48.0,
+    "north": 47.5,
     "south": 47.0
   },
   "baseMapName": "Bing Maps Roads",
