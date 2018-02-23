@@ -9,7 +9,7 @@
         {
           "name": "2009_substrate",
           "type": "wms",
-          "url": "http://spatial.mtri.org/mapserver,
+          "url": "http://spatial.mtri.org/mapserver",
           "isEnabled": true,
           "layers": "2009_substrate",
           "map": "%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map",
