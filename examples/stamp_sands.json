@@ -9,9 +9,10 @@
         {
           "name": "2009_substrate",
           "type": "wms",
-          "url": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map",
+          "url": "http://spatial.mtri.org/mapserver?,
           "isEnabled": true,
           "layers": "2009_substrate",
+          "map": "%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map",
           "parameters": {
             "VERSION": "1.1.1"
           }
@@ -19,9 +20,10 @@
         {
           "name": "2016_substrate",
           "type": "wms",
-          "url": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map",
+          "url": "http://spatial.mtri.org/mapserver",
           "isEnabled": true,
           "layers": "2016_substrate",
+          "map": "%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map",
           "parameters": {
             "VERSION": "1.1.1"
           }
