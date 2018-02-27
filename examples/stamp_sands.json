@@ -35,7 +35,7 @@
           "type": "wms",
           "url": "http://spatial.mtri.org/mapserver",
           "getCapabilitiesUrl": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map&service=WMS&version=1.1.1&request=getCapabilities",
-          "isEnabled": true,
+          "isEnabled": false,
           "layers": "2009_substrate",
           "parameters": {
             "VERSION": "1.1.1",
@@ -47,7 +47,7 @@
           "type": "wms",
           "url": "http://spatial.mtri.org/mapserver",
           "getCapabilitiesUrl": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map&service=WMS&version=1.1.1&request=getCapabilities",
-          "isEnabled": true,
+          "isEnabled": false,
           "layers": "2016_substrate",
           "map": "/var/www/mapfiles/stampsands.map",
           "parameters": {
