@@ -7,6 +7,30 @@
       "type": "group",
       "items": [
         {
+          "name": "2008_bathymetry",
+          "type": "wms",
+          "url": "http://spatial.mtri.org/mapserver",
+          "getCapabilitiesUrl": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map&service=WMS&version=1.1.1&request=getCapabilities",
+          "isEnabled": true,
+          "layers": "2008_bathymetry",
+          "parameters": {
+            "VERSION": "1.1.1",
+            "map": "/var/www/mapfiles/stampsands.map"
+          }
+        },        
+        {
+          "name": "2016_bathymetry",
+          "type": "wms",
+          "url": "http://spatial.mtri.org/mapserver",
+          "getCapabilitiesUrl": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map&service=WMS&version=1.1.1&request=getCapabilities",
+          "isEnabled": true,
+          "layers": "2016_bathymetry",
+          "parameters": {
+            "VERSION": "1.1.1",
+            "map": "/var/www/mapfiles/stampsands.map"
+          }
+        },
+        {
           "name": "2009_substrate",
           "type": "wms",
           "url": "http://spatial.mtri.org/mapserver",
