@@ -1,0 +1,40 @@
+{
+  "catalog": [
+    {
+      "name": "EC2015 Tide Constituents",
+      "type": "group",
+      "items": [
+        {
+          "name": "Tidal Amplitude",
+          "type": "wms",
+          "url": "http://gamone.whoi.edu/wms/datasets/ec2015",
+          "isEnabled": true,
+          "layers": "Amp",
+          "colorScaleMinimum": 0.0,
+          "colorScaleMaximum": 1.0,
+          "initialTimeSource": "2000-01-01T00:00:00Z",
+          "styles": "filledcontours_jet",
+          "parameters": {
+            "VERSION": "1.1.1"
+            }
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "homeCamera": {
+    "west": -71.5,
+    "east": -65,
+    "north": 45.0,
+    "south": 39.0
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}
