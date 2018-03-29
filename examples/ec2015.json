@@ -7,7 +7,7 @@
         {
           "name": "Tidal Amplitude",
           "type": "wms",
-          "url": "http://gamone.whoi.edu/wms/datasets/ec2015",
+          "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
           "isEnabled": true,
           "layers": "Amp",
           "colorScaleMinimum": 0.01,
