@@ -10,7 +10,9 @@
           "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
           "isEnabled": true,
           "layers": "Amp",
-          "initialTimeSource": "2000-01-01T00:00:00Z",
+          "initialTimeSource": "1999-01-01T00:00:00Z",
+          "colorScaleMinimum": 0.01,
+          "colorScaleMaximum": 2.01,
           "styles": "filledcontours_jet",
           "parameters": {
             "VERSION": "1.1.1"
