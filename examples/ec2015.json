@@ -110,6 +110,6 @@
     "south": 39.0
   },
   "baseMapName": "Bing Maps Roads",
-  "initialViewerMode": "2d",
+  "viewerMode": "2d",
   "services": []
 }
