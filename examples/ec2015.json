@@ -5,12 +5,13 @@
       "type": "group",
       "items": [
       {
-          "name": "Water Depth",
+          "name": "K1 Tidal Amplitude",
           "type": "wms",
           "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
           "isEnabled": true,
           "isShown": false,
-          "layers": "depth",
+          "isOpen": false,
+          "layers": "K1_Amp",
           "colorScaleMinimum": 0.01,
           "colorScaleMaximum": 300.0,
           "styles": "filledcontours_gist_earth",
@@ -19,28 +20,15 @@
             }
         },
         {
-          "name": "M2 Tidal Amplitude",
-          "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
-          "isEnabled": true,
-          "isShown": true,
-          "layers": "M2_Amp",
-          "colorScaleMinimum": 0.01,
-          "colorScaleMaximum": 6.0,
-          "styles": "filledcontours_jet",
-          "parameters": {
-            "VERSION": "1.1.1"
-            }
-        },
-        {
-          "name": "S2 Tidal Amplitude",
+          "name": "O1 Tidal Amplitude",
           "type": "wms",
           "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
           "isEnabled": true,
           "isShown": false,
-          "layers": "S2_Amp",
+          "isOpen": false,
+          "layers": "O1_Amp",
           "colorScaleMinimum": 0.01,
-          "colorScaleMaximum": 1.0,
+          "colorScaleMaximum": 6.0,
           "styles": "filledcontours_jet",
           "parameters": {
             "VERSION": "1.1.1"
@@ -52,6 +40,7 @@
           "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
           "isEnabled": true,
           "isShown": false,
+          "isOpen": false,
           "layers": "N2_Amp",
           "colorScaleMinimum": 0.01,
           "colorScaleMaximum": 1.0,
@@ -59,14 +48,15 @@
           "parameters": {
             "VERSION": "1.1.1"
             }
-        },  
+        },
         {
-          "name": "O1 Tidal Amplitude",
+          "name": "S2 Tidal Amplitude",
           "type": "wms",
           "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
           "isEnabled": true,
           "isShown": false,
-          "layers": "O1_Amp",
+          "isOpen": false,
+          "layers": "S2_Amp",
           "colorScaleMinimum": 0.01,
           "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
@@ -75,12 +65,28 @@
             }
         },  
         {
-          "name": "K1 Tidal Amplitude",
+          "name": "M2 Tidal Amplitude",
+          "type": "wms",
+          "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
+          "isEnabled": true,
+          "isShown": true,
+          "isOpen": true,
+          "layers": "M2_Amp",
+          "colorScaleMinimum": 0.01,
+          "colorScaleMaximum": 1.0,
+          "styles": "filledcontours_jet",
+          "parameters": {
+            "VERSION": "1.1.1"
+            }
+        },  
+        {
+          "name": "Water Depth",
           "type": "wms",
           "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
           "isEnabled": true,
           "isShown": false,
-          "layers": "K1_Amp",
+          "isOpen": false,
+          "layers": "depth",
           "colorScaleMinimum": 0.01,
           "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
@@ -88,8 +94,7 @@
             "VERSION": "1.1.1"
             }
         }
-      ],
-      "isOpen": true
+      ]
     }
   ],
   "corsDomains": [
