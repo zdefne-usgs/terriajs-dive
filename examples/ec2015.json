@@ -13,8 +13,8 @@
           "isOpen": false,
           "layers": "K1_Amp",
           "colorScaleMinimum": 0.01,
-          "colorScaleMaximum": 300.0,
-          "styles": "filledcontours_gist_earth",
+          "colorScaleMaximum": 1.0,
+          "styles": "filledcontours_jet",
           "parameters": {
             "VERSION": "1.1.1"
             }
@@ -28,7 +28,7 @@
           "isOpen": false,
           "layers": "O1_Amp",
           "colorScaleMinimum": 0.01,
-          "colorScaleMaximum": 6.0,
+          "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
           "parameters": {
             "VERSION": "1.1.1"
@@ -73,7 +73,7 @@
           "isOpen": true,
           "layers": "M2_Amp",
           "colorScaleMinimum": 0.01,
-          "colorScaleMaximum": 1.0,
+          "colorScaleMaximum": 6.0,
           "styles": "filledcontours_jet",
           "parameters": {
             "VERSION": "1.1.1"
@@ -87,9 +87,9 @@
           "isShown": false,
           "isOpen": false,
           "layers": "depth",
-          "colorScaleMinimum": 0.01,
-          "colorScaleMaximum": 1.0,
-          "styles": "filledcontours_jet",
+          "colorScaleMinimum": -300.0,
+          "colorScaleMaximum": -0.1,
+          "styles": "filledcontours_gist_earthjet",
           "parameters": {
             "VERSION": "1.1.1"
             }
