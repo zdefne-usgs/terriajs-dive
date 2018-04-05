@@ -12,7 +12,7 @@
           "isShown": false,
           "isLegendVisible": false,
           "layers": "K1_Amp",
-          "colorScaleMinimum": 0.01,
+          "colorScaleMinimum": 0.0,
           "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
           "parameters": {
@@ -27,7 +27,7 @@
           "isShown": false,
           "isLegendVisible": false,
           "layers": "O1_Amp",
-          "colorScaleMinimum": 0.01,
+          "colorScaleMinimum": 0.0,
           "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
           "parameters": {
@@ -42,7 +42,7 @@
           "isShown": false,
           "isLegendVisible": false,
           "layers": "N2_Amp",
-          "colorScaleMinimum": 0.01,
+          "colorScaleMinimum": 0.0,
           "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
           "parameters": {
@@ -57,7 +57,7 @@
           "isShown": false,
           "isLegendVisible": false,
           "layers": "S2_Amp",
-          "colorScaleMinimum": 0.01,
+          "colorScaleMinimum": 0.0,
           "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
           "parameters": {
@@ -72,7 +72,7 @@
           "isShown": true,
           "isLegendVisible": true,
           "layers": "M2_Amp",
-          "colorScaleMinimum": 0.01,
+          "colorScaleMinimum": 0.0,
           "colorScaleMaximum": 6.0,
           "styles": "filledcontours_jet",
           "parameters": {
@@ -88,7 +88,7 @@
           "isLegendVisible": false,
           "layers": "depth",
           "colorScaleMinimum": -300.0,
-          "colorScaleMaximum": -0.1,
+          "colorScaleMaximum": 0.0,
           "styles": "filledcontours_gist_earthjet",
           "parameters": {
             "VERSION": "1.1.1"
@@ -99,9 +99,7 @@
   ],
   "corsDomains": [
     "whoi.edu",
-    "corsproxy.com",
-    "programs.communications.gov.au",
-    "www.asris.csiro.au"
+    "corsproxy.com"
   ],
   "homeCamera": {
     "west": -71.5,
