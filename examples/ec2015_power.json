@@ -7,7 +7,7 @@
       {
           "name": "K1 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/power",
+          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -22,7 +22,7 @@
         {
           "name": "O1 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/power",
+          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -37,7 +37,7 @@
         {
           "name": "N2 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/power",
+          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -52,7 +52,7 @@
         {
           "name": "S2 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/power",
+          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -67,9 +67,9 @@
         {
           "name": "M2 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/power",
+          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
           "isEnabled": true,
-          "isShown": true,
+          "isShown": false,
           "isLegendVisible": false,
           "layers": "M2_Amp",
           "colorScaleMinimum": 0.0,
@@ -82,7 +82,7 @@
         {
           "name": "Tidal Current Power",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/power",
+          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
           "isEnabled": true,
           "isShown": true,
           "isLegendVisible": true,
@@ -97,7 +97,7 @@
         {
           "name": "Water Depth",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/ec2015",
+          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
