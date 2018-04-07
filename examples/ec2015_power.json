@@ -104,7 +104,7 @@
           "layers": "depth",
           "colorScaleMinimum": -300.0,
           "colorScaleMaximum": 0.0,
-          "styles": "filledcontours_gist_earthjet",
+          "styles": "filledcontours_gist_earth",
           "parameters": {
             "VERSION": "1.1.1"
             }
