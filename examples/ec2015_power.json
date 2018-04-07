@@ -88,8 +88,8 @@
           "isLegendVisible": true,
           "layers": "matsp",
           "colorScaleMinimum": 0.0,
-          "colorScaleMaximum": 4000.0,
-          "styles": "filledcontours_jet",
+          "colorScaleMaximum": 1000.0,
+          "styles": "filledcontours_cubehelix",
           "parameters": {
             "VERSION": "1.1.1"
             }
