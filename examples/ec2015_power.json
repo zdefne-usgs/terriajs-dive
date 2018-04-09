@@ -7,7 +7,7 @@
       {
           "name": "K1 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -22,7 +22,7 @@
         {
           "name": "O1 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -37,7 +37,7 @@
         {
           "name": "N2 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -52,7 +52,7 @@
         {
           "name": "S2 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
+          "url": "http://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -67,7 +67,7 @@
         {
           "name": "M2 Tidal Amplitude",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -80,9 +80,9 @@
             }
         },  
         {
-          "name": "Tidal Current Power",
+          "name": "Vertically-integrated maximum tidal stream power",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
           "isEnabled": true,
           "isShown": true,
           "isLegendVisible": true,
@@ -97,7 +97,7 @@
         {
           "name": "Water Depth",
           "type": "wms",
-          "url": "https://gamone.whoi.edu/wms/datasets/tidalpower",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
