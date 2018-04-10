@@ -99,7 +99,7 @@
         {
           "name": "Water Depth",
           "type": "wms",
-          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
