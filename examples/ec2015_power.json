@@ -87,10 +87,8 @@
           "isShown": true,
           "isLegendVisible": true,
           "layers": "matspKWm2",
-          "description": "Maximum tidal stream power calculated from ADCIRC EC2015 Tidal Constituents using from the Haas et al. (2011) Technical Report (Assessment of Energy Production
-Potential from Tidal Streams in the United States Final Project Report) https://www1.eere.energy.gov/water/pdfs/1023527.pdf
-Page 26",
-          "dataCustodian": "Brian Blanton (blanton@renci.org)"
+          "description": "Maximum tidal stream power calculated from ADCIRC EC2015 Tidal Constituents using from the Haas et al. (2011) Technical Report (Assessment of Energy Production Potential from Tidal Streams in the United States Final Project Report). https://www1.eere.energy.gov/water/pdfs/1023527.pdf",
+          "dataCustodian": "Brian Blanton (blanton@renci.org)",
           "colorScaleMinimum": 0.0,
           "colorScaleMaximum": 50.0,
           "styles": "filledcontours_cubehelix",
