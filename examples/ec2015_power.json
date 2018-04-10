@@ -7,7 +7,7 @@
       {
           "name": "K1 Tidal Amplitude",
           "type": "wms",
-          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -22,7 +22,7 @@
         {
           "name": "O1 Tidal Amplitude",
           "type": "wms",
-          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -37,7 +37,7 @@
         {
           "name": "N2 Tidal Amplitude",
           "type": "wms",
-          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -52,7 +52,7 @@
         {
           "name": "S2 Tidal Amplitude",
           "type": "wms",
-          "url": "http://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
+          "url": "http://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -67,7 +67,7 @@
         {
           "name": "M2 Tidal Amplitude",
           "type": "wms",
-          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
@@ -80,15 +80,19 @@
             }
         },  
         {
-          "name": "Vertically-integrated maximum tidal stream power",
+          "name": "maximum tidal stream power",
           "type": "wms",
-          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/power_notime",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
           "isEnabled": true,
           "isShown": true,
           "isLegendVisible": true,
-          "layers": "matsp",
+          "layers": "matspKWm2",
+          "description": "Maximum tidal stream power calculated from ADCIRC EC2015 Tidal Constituents using from the Haas et al. (2011) Technical Report (Assessment of Energy Production
+Potential from Tidal Streams in the United States Final Project Report) https://www1.eere.energy.gov/water/pdfs/1023527.pdf
+Page 26",
+          "dataCustodian": "Brian Blanton (blanton@renci.org)"
           "colorScaleMinimum": 0.0,
-          "colorScaleMaximum": 1000.0,
+          "colorScaleMaximum": 50.0,
           "styles": "filledcontours_cubehelix",
           "parameters": {
             "VERSION": "1.1.1"
