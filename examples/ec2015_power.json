@@ -1,0 +1,133 @@
+{
+  "catalog": [
+    {
+      "name": "EC2015 Tide Constituents",
+      "type": "group",
+      "items": [
+      {
+          "name": "K1 Tidal Amplitude",
+          "type": "wms",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "layers": "K1_Amp",
+          "colorScaleMinimum": 0.0,
+          "colorScaleMaximum": 1.0,
+          "styles": "filledcontours_jet",
+          "parameters": {
+            "VERSION": "1.1.1",
+            "HORIZONTAL": true,
+            "WIDTH": 200,
+            "HEIGHT": 50
+            }
+        },
+        {
+          "name": "O1 Tidal Amplitude",
+          "type": "wms",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "layers": "O1_Amp",
+          "colorScaleMinimum": 0.0,
+          "colorScaleMaximum": 1.0,
+          "styles": "filledcontours_jet",
+          "parameters": {
+            "VERSION": "1.1.1"
+            }
+        },
+        {
+          "name": "N2 Tidal Amplitude",
+          "type": "wms",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "layers": "N2_Amp",
+          "colorScaleMinimum": 0.0,
+          "colorScaleMaximum": 1.0,
+          "styles": "filledcontours_jet",
+          "parameters": {
+            "VERSION": "1.1.1"
+            }
+        },
+        {
+          "name": "S2 Tidal Amplitude",
+          "type": "wms",
+          "url": "http://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "layers": "S2_Amp",
+          "colorScaleMinimum": 0.0,
+          "colorScaleMaximum": 1.0,
+          "styles": "filledcontours_jet",
+          "parameters": {
+            "VERSION": "1.1.1"
+            }
+        },  
+        {
+          "name": "M2 Tidal Amplitude",
+          "type": "wms",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "layers": "M2_Amp",
+          "colorScaleMinimum": 0.0,
+          "colorScaleMaximum": 6.0,
+          "styles": "filledcontours_jet",
+          "parameters": {
+            "VERSION": "1.1.1"
+            }
+        },  
+        {
+          "name": "maximum tidal stream power",
+          "type": "wms",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
+          "isEnabled": true,
+          "isShown": true,
+          "isLegendVisible": true,
+          "layers": "matspKWm2",
+          "description": "Maximum tidal stream power calculated from ADCIRC EC2015 Tidal Constituents using from the Haas et al. (2011) Technical Report (Assessment of Energy Production Potential from Tidal Streams in the United States Final Project Report). https://www1.eere.energy.gov/water/pdfs/1023527.pdf",
+          "dataCustodian": "Brian Blanton (blanton@renci.org)",
+          "colorScaleMinimum": 0.0,
+          "colorScaleMaximum": 50.0,
+          "styles": "filledcontours_cubehelix",
+          "parameters": {
+            "VERSION": "1.1.1"
+            }
+        },  
+        {
+          "name": "Water Depth",
+          "type": "wms",
+          "url": "https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "layers": "depth",
+          "colorScaleMinimum": -300.0,
+          "colorScaleMaximum": 0.0,
+          "styles": "filledcontours_gist_earth",
+          "parameters": {
+            "VERSION": "1.1.1"
+            }
+        }
+      ]
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com"
+  ],
+  "homeCamera": {
+    "west": -71.5,
+    "east": -65,
+    "north": 45.0,
+    "south": 39.0
+  },
+  "baseMapName": "Bing Maps Roads",
+  "viewerMode": "2d",
+  "services": []
+}

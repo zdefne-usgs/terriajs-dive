@@ -1,0 +1,77 @@
+
+
+{
+  "catalog": [
+    {
+      "name": "Stamp Sands",
+      "type": "group",
+      "items": [
+        {
+          "name": "2008_bathymetry",
+          "type": "wms",
+          "url": "http://spatial.mtri.org/mapserver",
+          "getCapabilitiesUrl": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map&service=WMS&version=1.1.1&request=getCapabilities",
+          "isEnabled": true,
+          "layers": "2008_bathymetry",
+          "parameters": {
+            "VERSION": "1.1.1",
+            "map": "/var/www/mapfiles/stampsands.map"
+          }
+        },        
+        {
+          "name": "2016_bathymetry",
+          "type": "wms",
+          "url": "http://spatial.mtri.org/mapserver",
+          "getCapabilitiesUrl": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map&service=WMS&version=1.1.1&request=getCapabilities",
+          "isEnabled": true,
+          "layers": "2016_bathymetry",
+          "parameters": {
+            "VERSION": "1.1.1",
+            "map": "/var/www/mapfiles/stampsands.map"
+          }
+        },
+        {
+          "name": "2009_substrate",
+          "type": "wms",
+          "url": "http://spatial.mtri.org/mapserver",
+          "getCapabilitiesUrl": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map&service=WMS&version=1.1.1&request=getCapabilities",
+          "isEnabled": false,
+          "layers": "2009_substrate",
+          "parameters": {
+            "VERSION": "1.1.1",
+            "map": "/var/www/mapfiles/stampsands.map"
+          }
+        },
+        {
+          "name": "2016_substrate",
+          "type": "wms",
+          "url": "http://spatial.mtri.org/mapserver",
+          "getCapabilitiesUrl": "http://spatial.mtri.org/mapserver?map=%2Fvar%2Fwww%2Fmapfiles%2Fstampsands.map&service=WMS&version=1.1.1&request=getCapabilities",
+          "isEnabled": false,
+          "layers": "2016_substrate",
+          "map": "/var/www/mapfiles/stampsands.map",
+          "parameters": {
+            "VERSION": "1.1.1",
+            "map": "/var/www/mapfiles/stampsands.map"
+          }
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "homeCamera": {
+    "west": -88.5,
+    "east": -88.0,
+    "north": 47.5,
+    "south": 47.0
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}

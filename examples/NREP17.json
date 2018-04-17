@@ -1,0 +1,65 @@
+{
+"catalog": [
+        {
+            "name": "NREP17 Datasets",
+            "isOpen": true,
+            "type": "group",
+            "items": [
+                {
+                    "name": "UK Met/Significant Wave Height",
+                    "isEnabled": true,
+                    "maxRefreshIntervals":"40000",
+                    "url": "http://data.ncof.co.uk/thredds/wms/METOFFICE-NWS-AF-WAV-HOURLY",
+                    "type": "wms",
+                    "layers": "VHM0",
+                    "colorScaleMinimum": 0,
+                    "colorScaleMaximum": 2,
+                    "initialTimeSource": "2017-06-01T00:00:00Z",
+                    "styles": "boxfill/rainbow",
+                    "parameters": {
+                        "NUMCONTOURS": "40"
+                    }
+                },
+                {
+                    "name": "UK Met/Wind Wave Significant Height",
+                    "isEnabled": true,
+                    "maxRefreshIntervals":"40000",
+                    "url": "http://data.ncof.co.uk/thredds/wms/METOFFICE-NWS-AF-WAV-HOURLY",
+                    "type": "wms",
+                    "layers": "VHM0_WW",
+                    "colorScaleMinimum": 0,
+                    "colorScaleMaximum": 2,
+                    "initialTimeSource": "2017-06-01T00:00:00Z",
+                    "styles": "boxfill/rainbow",
+                    "parameters": {
+                        "NUMCONTOURS": "40"
+                    }
+                },
+                {
+                    "name": "CMRE/Estimated Wind Wave Significant Height",
+                    "isEnabled": true,
+                    "maxRefreshIntervals":"40000",
+                    "url": "http://wx18275/thredds/wms/data/NREP17/ROMS-NREP17/proc/ALL/agg_ALL.ncml",
+                    "type": "wms",
+                    "layers": "significant_height_of_wind_waves",
+                    "colorScaleMinimum": 0,
+                    "colorScaleMaximum": 2,
+                    "initialTimeSource": "2017-06-01T00:00:00Z",
+                    "styles": "boxfill/rainbow",
+                    "parameters": {
+                        "NUMCONTOURS": "40"
+                    }
+                }                    
+            ]
+        }
+    ],
+    "isOpen": true,
+    "baseMapName": "Bing Maps Aerial with Labels",
+    "viewerMode": "2d",
+    "homeCamera": {
+        "west": -39.725365403840414,
+        "south": 38.07195921009261,
+        "east": 32.83799720256024,
+        "north": 59.630351220962645
+    }
+}
