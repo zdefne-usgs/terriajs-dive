@@ -16,7 +16,8 @@
           "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
           "parameters": {
-            "VERSION": "1.1.1"
+            "VERSION": "1.1.1",
+            "HORIZONTAL": true
             }
         },
         {
