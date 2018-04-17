@@ -63,6 +63,7 @@
           "colorScaleMinimum": 0.0,
           "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
+          "legendUrl
           "parameters": {
             "VERSION": "1.1.1"
             }
@@ -80,7 +81,7 @@
           "styles": "filledcontours_jet",
           "parameters": {
             "VERSION": "1.1.1",
-            //"HORIZONTAL": true,
+            "HORIZONTAL": true,
             }
         },  
         {
