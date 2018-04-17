@@ -97,7 +97,7 @@
           "styles": "filledcontours_cubehelix",
           "parameters": {
             "VERSION": "1.1.1",
-            "HORIZONTAL": true,
+            //"HORIZONTAL": true,
             "WIDTH": 200,
             "HEIGHT": 50
             }
