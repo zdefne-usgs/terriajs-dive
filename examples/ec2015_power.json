@@ -63,7 +63,6 @@
           "colorScaleMinimum": 0.0,
           "colorScaleMaximum": 1.0,
           "styles": "filledcontours_jet",
-          "legendUrl
           "parameters": {
             "VERSION": "1.1.1"
             }
