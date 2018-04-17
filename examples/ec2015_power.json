@@ -79,7 +79,8 @@
           "colorScaleMaximum": 6.0,
           "styles": "filledcontours_jet",
           "parameters": {
-            "VERSION": "1.1.1"
+            "VERSION": "1.1.1",
+            //"HORIZONTAL": true,
             }
         },  
         {
@@ -114,7 +115,9 @@
           "colorScaleMaximum": 0.0,
           "styles": "filledcontours_gist_earth",
           "parameters": {
-            "VERSION": "1.1.1"
+            "VERSION": "1.1.1",
+            "WIDTH": 300,
+            "HEIGHT": 50
             }
         }
       ]
