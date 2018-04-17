@@ -98,8 +98,8 @@
           "styles": "filledcontours_cubehelix",
           "parameters": {
             "VERSION": "1.1.1",
-            "WIDTH": 200,
-            "HEIGHT": 50
+            "WIDTH": 1024,
+            "HEIGHT": 1024
             }
         },  
         {
@@ -116,7 +116,7 @@
           "parameters": {
             "VERSION": "1.1.1",
             },
-          "legend_options": {
+          "legend": {
             "VERSION": "1.1.1",
             "WIDTH": 300,
             "HEIGHT": 50
