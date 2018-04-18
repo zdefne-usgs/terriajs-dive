@@ -19,7 +19,7 @@
             "VERSION": "1.1.1",
             },
           "legendUrl": {
-            "format": "image"
+            "format": "image",
             "HORIZONTAL": true,
             "WIDTH": 300,
             "HEIGHT": 50
