@@ -20,6 +20,11 @@
             "HORIZONTAL": true,
             "WIDTH": 200,
             "HEIGHT": 50
+            },
+          "legendUrl": {
+            "HORIZONTAL": true,
+            "WIDTH": 300,
+            "HEIGHT": 50
             }
         },
         {
