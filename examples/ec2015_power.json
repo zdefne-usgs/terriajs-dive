@@ -17,9 +17,6 @@
           "styles": "filledcontours_jet",
           "parameters": {
             "VERSION": "1.1.1",
-            "HORIZONTAL": true,
-            "WIDTH": 200,
-            "HEIGHT": 50
             },
           "legendUrl": {
             "HORIZONTAL": true,
