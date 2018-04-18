@@ -116,11 +116,7 @@
           "parameters": {
             "VERSION": "1.1.1",
             },
-          "legend": {
-            "VERSION": "1.1.1",
-            "WIDTH": 300,
-            "HEIGHT": 50
-            }
+          "legendUrl": "https://gamone.whoi.edu/terriamap/proxy/https://js-169-194.jetstream-cloud.org/wms/datasets/ec2015_power?service=WMS&version=1.1.0&request=GetLegendGraphic&format=image%2Fpng&transparent=True&layer=K1_Amp&VERSION=1.1.1&HORIZONTAL=true&WIDTH=300&HEIGHT=50&srs=EPSG%3A3857&colorscalerange=0%2C1",
         }
       ]
     }
